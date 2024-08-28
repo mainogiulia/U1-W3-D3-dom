@@ -7,6 +7,7 @@ buttonIsClicked.onclick = function () {
   } else {
     const myTasks = document.querySelector("#tasks");
     myTasks.innerHTML += `<div class="task">
+                            <input type="checkbox">
                             <span id="task-name">${newTask.value}</span>
                             <button class="delete">
                                 <i class="far fa-trash-alt"></i>

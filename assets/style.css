@@ -1,0 +1,52 @@
+body {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(193, 181, 218, 1) 60%, rgba(148, 187, 233, 1) 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 15%;
+}
+
+h1 {
+  color: #c734a2;
+}
+
+input,
+button {
+  font-family: inherit;
+  border: 3px solid #c734a2;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+input {
+  width: 30%;
+  min-height: 35px;
+  padding-left: 10px;
+}
+
+button {
+  width: 3%;
+  min-height: 42px;
+}
+
+i {
+  color: #c734a2;
+  font-size: 20px;
+}
+
+.delete {
+  width: 3%;
+}
+
+.task {
+  margin-top: 0.5rem;
+  background-color: #bd86af;
+  background-size: cover;
+}
+
+.task input {
+  width: auto;
+  margin: 0;
+}
